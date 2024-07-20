@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Student Course List</h1>
+    </div>
+    <div class="main-container">
+        <div class="container">
+           <form>
+            <table border="1">
+                <tr>
+                    <td class="tdd">Name :</td>
+                    <td class="tdd"><input type="text" placeholder="Student Name" id="std-Name"></td>
+                </tr>
+                <tr>
+                    <td class="tdd">Age :</td>
+                    <td class="tdd"><input type="text" placeholder="Student Age" id="std-age"></td>
+                </tr>
+                <tr>
+                    <td class="tdd">Gender :</td>
+                    <td class="tdd"><input type="text" placeholder="Student Gender" id="std-gender"></td>
+                </tr>
+                <tr>
+                    <td class="tdd">Course :</td>
+                    <td class="tdd"><input id="std-course" placeholder="Course Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tdd">Email :</td>
+                    <td class="tdd"><input type="text" placeholder="Student Email" id="std-email"></td>
+                </tr>
+            </table>
+           </form>
+           <div class="save">
+            <button class="box" id="box2">Rest</button>
+            <button class="box" id="box1">send</button>
+           </div>
+        </div>
+    </div> <br> <br> <br> <br>
+    <table id="main-table" border="1">
+        <tr>
+            <td class="dd">Name</td>
+            <td class="dd">Age</td>
+            <td class="dd">Gender</td>
+            <td class="dd">Course</td>
+            <td class="dd">Email</td>
+            <td class="dd">ACTION</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
